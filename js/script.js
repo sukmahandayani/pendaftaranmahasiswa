@@ -45,7 +45,7 @@ $(document).ready(function() {
             jk: { required: true },
             prodi: { required: true },
             alamat: { required: true, minlength: 10 },
-            foto: { required: true, extension: "jpg|jpeg|png|jfif", maxsize: 2097152 }
+            foto: { required: true, extension: "jpg|jpeg|png|jfif" maxfilesize: 2097152 }
         },
 
         // Teks Notifikasi Peringatan Kesalahan Bahasa Indonesia
@@ -77,7 +77,7 @@ $(document).ready(function() {
             foto: {
                 required: "⚠️ Data wajib diisi, pas foto mahasiswa harus diunggah!",
                 extension: "⚠️ Format salah! Hanya menerima berkas berekstensi JPG, JPEG, PNG, atau JFIF.",
-                maxsize: "⚠️ Berkas terlalu besar! Ukuran file foto maksimal adalah 2MB."
+                maxfilesize: "⚠️ Berkas terlalu besar! Ukuran file foto maksimal adalah 2MB."
             }
         },
 
